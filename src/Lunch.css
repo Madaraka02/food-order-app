@@ -1,0 +1,37 @@
+.lunch{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+}
+img{
+    object-fit: contain;
+}
+.lunch__pageCard{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.lunch__pageCardTitle{
+    font-size: small;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 5px;
+}
+.lunch__pageCardPrice{
+    margin: 5px;
+    font-size: medium;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+.lunch__button{
+    margin: 5px;
+    background-color: orange;
+    outline-color: orange;
+}

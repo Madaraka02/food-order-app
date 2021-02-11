@@ -1,0 +1,40 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 7px;
+    width: 300px;
+
+}
+.register{
+    display: flex;
+    align-items: center;
+    margin-top: 100px !important;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    border: 1px solid whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+.submit{
+    color: brown;
+    background-color: yellowgreen;
+}
+label{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: smaller;
+}

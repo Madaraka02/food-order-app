@@ -1,0 +1,25 @@
+.display{
+    border: 1px solid rgb(207, 189, 189);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+h4{
+    text-transform: uppercase;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    font-size: smaller;
+    font-weight: bolder;
+}
+p{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

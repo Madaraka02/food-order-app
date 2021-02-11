@@ -1,0 +1,46 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 7px;
+    border-radius: 7px;
+    width: 300px;
+
+}
+.login{
+    display: flex;
+    margin-top: 100px !important;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 50%;
+    height: 50%;
+    border: 1px solid whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+button{
+    padding: 4px;
+    border-radius: 7px;
+    outline-color: blue;
+    width: 100px;
+    position: relative;
+    text-emphasis-color: white;
+    /* color: rgb(231, 215, 250);
+    background-color: rgb(250, 215, 245); */
+}
+label{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: smaller;
+}
